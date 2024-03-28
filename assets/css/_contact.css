@@ -1,0 +1,56 @@
+.contact-page {
+    padding-bottom: 120px;
+}
+.contact-page .oleez-page-title {
+    margin-bottom: 43px;
+}
+.oleez-contact-form .oleez-input, .oleez-contact-form .oleez-textarea {
+    width: 100%;
+}
+.oleez-contact-form label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.oleez-contact-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+.oleez-contact-form .oleez-input {
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 9px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.oleez-contact-form .oleez-input:focus {
+    outline: none;
+}
+.oleez-contact-form .oleez-input + label {
+    position: absolute;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 9px;
+    transition: all 0.3s ease;
+}
+.oleez-contact-form .oleez-input:focus + label, .oleez-contact-form .oleez-input:valid + label {
+    bottom: 34px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.oleez-contact-form .oleez-textarea {
+    border: 2px solid #010101;
+}
+.oleez-contact-form .btn-submit {
+    padding: 17px 50px;
+    background-color: #131212;
+    border-radius: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.oleez-contact-form .btn-submit:hover {
+    background-color: transparent;
+    border: 1px solid #131212;
+    color: #131212;
+}

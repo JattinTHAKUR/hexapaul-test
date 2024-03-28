@@ -1,0 +1,48 @@
+.oleez-page-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 27px;
+    padding-top: 29px;
+}
+.oleez-page-header-content {
+    font-size: 24px;
+    font-weight: 250;
+    margin-bottom: 38px;
+}
+.oleez-pagination a {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 1;
+    margin-right: 16px;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.oleez-pagination a::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: theme-color();
+    transition: all 0.2s ease;
+}
+.oleez-pagination a.active, .oleez-pagination a:hover {
+    text-decoration: none;
+}
+.oleez-pagination a.active::after, .oleez-pagination a:hover::after {
+    width: 100%;
+}
+.oleez-pagination a.next, .oleez-pagination a.previous {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+}
+.oleez-pagination a.next::after, .oleez-pagination a.previous::after {
+    content: none;
+}

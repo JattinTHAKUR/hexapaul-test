@@ -1,0 +1,106 @@
+.portfolio-grid-page {
+    padding-bottom: 110px;
+}
+.portfolio-grid-page .portfolio-card {
+    margin-bottom: 56px;
+    cursor: pointer;
+}
+.portfolio-grid-page .portfolio-card:hover .project-thumbnail {
+    transform: scale(1.1);
+}
+.portfolio-grid-page .portfolio-card .project-thumbnail-wrapper {
+    width: 100%;
+    height: 195px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.portfolio-grid-page .portfolio-card .project-thumbnail-wrapper .project-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio-grid-page .portfolio-card .project-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 7px;
+}
+.portfolio-grid-page .portfolio-card .project-category {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.portfolio-masonry-page .grid-sizer {
+    width: calc(25% - 20px);
+}
+.portfolio-masonry-page .grid-item {
+    margin-bottom: 25px;
+    width: calc(25% - 20px);
+}
+.portfolio-masonry-page .grid-item::before {
+    content: "";
+    display: block;
+    padding: 50% 0;
+    float: left;
+}
+.portfolio-masonry-page .grid-item.col-span-2 {
+    width: calc(50% - 20px);
+}
+.portfolio-masonry-page .grid-item.col-span-2::before {
+    padding: calc(25% - 5.5px) 0;
+}
+.portfolio-masonry-page .grid-item.row-span-2::before {
+    padding: calc(100% + 5.5px) 0;
+}
+.portfolio-masonry-page .grid-item.row-span-2.col-span-2::before {
+    padding: calc(50% - 3.75px) 0;
+}
+.portfolio-masonry-page .grid-item img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio-list .project {
+    margin-bottom: 50px;
+}
+.portfolio-list .project .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.portfolio-list .project .project-content .project-title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.29;
+    margin-bottom: 20px;
+}
+.portfolio-list .project .project-content .project-link {
+    font-size: 22px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+.portfolio-list .project .project-content .project-link::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    border-bottom: 1px solid #979797;
+    margin-left: 15px;
+}
+.portfolio-list .project .project-thumbnail-wrapper {
+    height: 330px;
+    overflow: hidden;
+}
+.portfolio-list .project .project-thumbnail-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+.portfolio-list .project:hover .project-thumbnail-wrapper img {
+    transform: scale(1.075);
+}

@@ -1,0 +1,67 @@
+.oleez-footer {
+    background-color: #0e0e0f;
+    color: white;
+}
+.oleez-footer .footer-content {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.oleez-footer .footer-content .footer-logo {
+    height: 30px;
+    margin-bottom: 19px;
+}
+.oleez-footer .footer-content .footer-intro-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 26px;
+    max-width: 288px;
+}
+.oleez-footer .footer-content .footer-social-links a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: inherit;
+    margin-right: 10px;
+}
+.oleez-footer .footer-content .footer-widget-text {
+    margin-bottom: 15px;
+}
+
+.oleez-footer .footer-content .S1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@media only screen and (min-width:600px){
+    .oleez-footer .footer-content .S1{
+        margin-left: -95px;
+        margin-right: 15%;
+    }
+}
+
+.oleez-footer .footer-content .footer-widget-text .widget-title {
+    font-size: 18px;
+    font-weight: 250;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: theme-color();
+}
+.oleez-footer .footer-content .footer-widget-text .widget-content {
+    font-size: 14px;
+    line-height: 1.29;
+}
+.oleez-footer .footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media (max-width: 767px) {
+    .oleez-footer .footer-text {
+        display: block;
+   }
+}
+.oleez-footer .footer-text p {
+    font-size: 14px;
+    line-height: 1.29;
+}

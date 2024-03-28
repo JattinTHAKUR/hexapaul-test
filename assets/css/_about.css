@@ -1,0 +1,94 @@
+.oleez-about-features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.oleez-about-features .feature-card .feature-card-title {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.oleez-about-features .feature-card .feature-card-title::after {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 3px;
+    background-color: black;
+    margin-left: 10px;
+}
+.oleez-about-features .feature-card .feature-card-content {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.67;
+}
+.oleez-what-we-do {
+    padding-top: 97px;
+    padding-bottom: 109px;
+}
+.oleez-what-we-do .section-title {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 0.62;
+    margin-bottom: 22px;
+}
+.oleez-what-we-do .section-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 39px;
+}
+.oleez-what-we-do .what-we-do-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 9px;
+}
+.oleez-what-we-do .what-we-do-list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.oleez-what-we-do .what-we-do-list li {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.67;
+}
+.oleez-about-work-with-us {
+    padding-bottom: 119px;
+}
+.oleez-about-work-with-us .section-title {
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 1.33;
+    margin-bottom: 10px;
+}
+.oleez-about-work-with-us .section-subtitle {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.75;
+    margin-bottom: 27px;
+}
+.oleez-about-work-with-us .section-subtitle a {
+    color: inherit;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+}
+.oleez-about-work-with-us .section-subtitle a:hover {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: -5px;
+}
+.oleez-about-work-with-us .work-with-us-btn {
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}

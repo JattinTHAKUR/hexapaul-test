@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP::Blog</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link href="assets/css/blog/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/blog/templatemo-xtra-blog.css" rel="stylesheet">
+    <!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <h1 class="text-center">Blog</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">
+                <ul>
+                    <li class="tm-nav-item active"><a href="blog.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            All Blogs
+                        </a></li>
+                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a></li>
+                    <li class="tm-nav-item"><a href="portfolio.html" class="tm-nav-link">
+                            <i class="fas fa-pen"></i>
+                            Portfolio
+                        </a></li>
+                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
+                            <i class="fas fa-users"></i>
+                            About
+                        </a></li>
+                    <li class="tm-nav-item"><a href="pricing1.html" class="tm-nav-link">
+                            <i class="far fa-comments"></i>
+                            Pricing
+                        </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <div class="row tm-row">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <!-- Video player 1422x800 -->
+                    <img src="assets/images/Blogstandard/blog11.gif" style="width:800px;height:415px" controls
+                        class="tm-mb-40">
+                </div>
+            </div>
+            <div class="row tm-row">
+                <div class="col-lg-8 tm-post-col">
+                    <div class="tm-post-full">
+                        <div class="mb-4">
+                            <h2 class="pt-2 tm-color-primary tm-post-title">Building Instagram Bot using Selenium</h2>
+                            <p class="tm-mb-40">Using Python Selenium library to automate the Instagram activity</p>
+                            <p>
+                                This is a simple guide to create an Instagram bot to automate the processes like logging
+                                in, following, and unfollowing people on Instagram without spamming Instagram.
+                                This bot is made in python with a selenium library. The bot will save time by automating
+                                the processes and running after a random period of time.
+                                You will discover that selenium is a very powerful library and you do not need much
+                                programming experience in python to make this bot.
+                            </p>
+
+                            <!-- Comments -->
+                            <div>
+                                <h2 class="tm-color-primary tm-post-title">More About</h2>
+                                <hr class="tm-hr-primary tm-mb-45">
+                                <div class="tm-comment tm-mb-45">
+                                    <div>
+                                        <h2>Selenium Library</h2>
+                                        <p>
+                                            For this project, I will be using the selenium library. The other option is
+                                            to use the Instagram API.
+                                            However, its usage is strictly monitored to align with Instagram’s user
+                                            guidelines.
+                                            Selenium is a very powerful library that gives freedom from any API’s.
+                                            The library was originally developed for web application testing.
+                                            However, with the combination of python and selenium, one can automate the
+                                            browser processes or web scraping with minimal coding knowledge.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tm-comment-reply tm-mb-45">
+                                    <hr>
+                                    <h2>Chrome/Firefox drivers</h2>
+                                    <p>
+                                        For the selenium library to access your browser, a web driver is necessary.
+                                        I used geckodriver for my Firefox browser. Nevertheless, one can easily change
+                                        to chrome by download Chromedriver.
+                                        You can download geckodriver from here or Chrome Driver from here. Also, for
+                                        Chrome, you will need to change webdriver.
+                                        Firefox to webdriver.Chrome, and specify the path of the executable file of the
+                                        web driver.
+                                    </p>
+                                </div>
+
+                                <img src="assets/images/Blogstandard/blog12.png" style="width:800px;height:100px"
+                                    controls class="tm-mb-40">
+
+                                <hr class="tm-hr-primary tm-mb-55">
+
+                                <p>
+                                <ul>This article will be broken up into the following steps:
+                                    <li>Logging in to the account</li>
+                                    <li>Following the relevant people</li>
+                                    <li>Unfollow people over a limit</li>
+                                </ul>
+                                </p>
+
+                                <h2>Login</h2>
+
+                                <div class="tm-comment">
+                                    <p>
+                                        The first thing we would like to do is log in to your Instagram account.
+                                        I am using XPath of the elements to find the username and password field in the
+                                        browser.
+                                        The .click() functionality of the Selenium is used to click the element. On the
+                                        login page, we use it to click the submit button.
+                                        After logging in, you would be asked for turning ON the Instagram notification.
+                                        The bot can easily get rid of it by clicking the “Not Now” button.
+                                    </p>
+                                </div>
+                                <img src="assets/images/Blogstandard/blog13.png" style="width:800px;height:300px"
+                                    controls class="tm-mb-40">
+                                <h2 class="pt-2 tm-color-primary tm-post-title">The Algorithm</h2>
+                                <div class="tm-comment">
+                                    <p>
+                                        I was wondering what will be the optimal algorithm to increase the followers on
+                                        Instagram without spamming or getting blocked.
+                                        Initially, I came up with the idea of following the people from the Instagram’s
+                                        suggestion list.
+                                        Nevertheless, after a few runs, Instagram started suggesting verified accounts.
+                                        These are the accounts with millions of followers and the odds are very low that
+                                        these accounts will follow you back. With this strategy, our bot will be used to
+                                        increase the following of the verified accounts, which is futile.
+                                        I had to devise another strategy to follow the people who have the maximum
+                                        probability of following us back.
+                                        These people are the people who share the same interest as your Instagram
+                                        account.
+                                    </p>
+                                </div>
+                                <h2 class="pt-2 tm-color-primary tm-post-title">Following</h2>
+                                <div class="tm-comment">
+                                    <p>
+                                        In this example, I posted supercars pictures on my account. Therefore, I made a
+                                        python list of Instagram's famous supercars accounts.
+                                        From the list of these accounts, the bot randomly selects a one and searches for
+                                        it on Instagram.
+                                        From the followers list of these accounts, the bot follows some of the people.
+                                        These people have the highest odds to follow our account back. You can set the
+                                        number of people to follow in one browsing session.
+                                        To avoid spamming, do not follow many people at one time.
+                                        After following people, the bot will close the browser and sleep for a random
+                                        number of seconds given by the user input.
+                                    </p>
+                                </div>
+                                <img src="assets/images/Blogstandard/blog14.png" style="width:800px;height:250px"
+                                    controls class="tm-mb-40">
+
+                                <div class="tm-comment">
+                                    <p>
+                                        I use XPath to find the element. However, the XPath might change when the
+                                        website is updated.
+                                        It can easily found by using the inspect element → Copy XPath in the browser.
+                                    </p>
+                                </div>
+                                <h2 class="pt-2 tm-color-primary tm-post-title">Unfollowing</h2>
+                                <div class="tm-comment">
+                                    <p>
+                                        Following too many people will increase your following list of the account.
+                                        Therefore, to get rid of excessive following people. An unfollow function is
+                                        made which can unfollow people.
+                                        You can set a limit on the maximum number of following for your account.
+                                        The bot will log in back to the account and check the following list of your
+                                        account.
+                                        If the following people are less then the user-specified limit, it will do
+                                        nothing and close the browser, else it will start unfollowing people till the
+                                        limit condition is satisfied and then close the browser.
+                                    </p>
+                                </div>
+                                <img src="assets/images/Blogstandard/blog15.png" style="width:800px;height:300px"
+                                    controls class="tm-mb-40">
+                                <div class="tm-comment">
+                                    <p>
+                                        Nonetheless, if you unfollow the recently followed people, then they might not
+                                        get enough time to follow you back.
+                                        Hence, the bot scrolls all the way down to the bottom of the following list of
+                                        your account, and unfollow the old followed people by the bot.
+                                    </p>
+                                </div>
+                                <img src="assets/images/Blogstandard/blog16.png" style="width:800px;height:350px"
+                                    controls class="tm-mb-40">
+                                <img src="assets/images/Blogstandard/blog17.png" style="width:800px;height:315px"
+                                    controls class="tm-mb-40">
+                                <div class="row tm-row">
+                                    <div class="col-lg-8 tm-post-col">
+                                        <div class="tm-post-full">
+                                            <div class="mb-4">
+                                                <p>
+                                                    Customize In the hashtag list, specify the accounts whose content
+                                                    matches the content of your account.
+                                                    Once the number of people to follow at one time, the maximum limit
+                                                    of the user’s following, and random sleep time is set. the process
+                                                    repeats infinitely after random sleep time between the
+                                                    user-specified time in seconds.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+        </main>
+    </div>
+    <script src="assets/js/blog/jquery.min.js"></script>
+    <script src="assets/js/blog/templatemo-script.js"></script>
+</body>
+
+</html>

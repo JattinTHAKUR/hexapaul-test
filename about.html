@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HP::About Us</title>
+    <link rel="stylesheet" href="./assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+
+    <style>
+        .container img #hoverkro {
+       filter: url(filters.svg#grayscale); /*Firefox 3.5+ */
+     filter: rgb(110, 96, 96); /*IE5+*/
+     -webkit-filter: grayscale(1); /*Webkit Nightlies & Chrome Canary*/
+     -webkit-transition: all .1s ease-in-out;  
+   }
+
+   .container img:hover #hoverkro{
+   filter: none;
+     -webkit-filter: grayscale(0);
+     -webkit-transform: scale(1.01);
+   }
+</style>
+
+</head>
+
+<body>
+    <div class="oleez-loader"></div>
+    <header class="oleez-header">
+        <nav class="navbar navbar-expand-lg navbar-light" style="position: fixed;left: 0;top: 0;right: 0;z-index: 1080;background: rgba(209, 204, 204, 0.7);backdrop-filter: blur(20px);height: 55px;">
+            <a class="navbar-brand" href="index.html"><!--<img src="assets/images/Logo_2.svg" alt="Oleez">--> HexaPaul</a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#oleezMainNav"
+                aria-controls="oleezMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="oleezMainNav">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#!" id="pagesDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pricing</a>
+                        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                            <a class="dropdown-item" href="pricing1.html">Basic</a>
+                            <a class="dropdown-item" href="pricing2.html">Gold</a>
+                            <a class="dropdown-item" href="pricing3.html">Primium</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+                <!-- <ul class="navbar-nav d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-btn" href="#!" data-toggle="searchModal">
+                            <img src="assets/images/search.svg" alt="search">
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-cart">
+                        <a class="nav-link nav-link-btn" href="#!">
+                            <span class="cart-item-count">0</span>
+                            <img src="assets/images/shopping-cart.svg" alt="cart">
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#!" id="languageDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">ENG</a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <a class="dropdown-item" href="#!">ARB</a>
+                            <a class="dropdown-item" href="#!">FRE</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a class="nav-link pr-0 nav-link-btn" href="#!" data-toggle="offCanvasMenu">
+                            <img src="assets/images/social icon@2x.svg" alt="social-nav-toggle">
+                        </a>
+                    </li>
+                </ul> -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="about-page">
+        <div class="container" style="margin-top: 50px;">
+            <h1 class="oleez-page-title wow fadeInUp">About Us</h1>
+            <p class="oleez-page-header-content wow fadeInUp" style="font-weight: 200;font-size: 21px;text-align: justify;">Hexapaul deals in developing Cross-platform apps, Webapps, websites, Database structuring, Social media, games development, Blockchain projects, ML, AI, VR, and AR-based apps, etc.  We support both small and large-scale businesses and drive the transformation by bringing together the technical process needed to help organizations thrive in the digital age. We deal in developing software that can support high-level security with hard keys, OTPs, facial recognition, thumb fingerprints authentication, and many more. These technical advantages keep us more viable in the market for any automation and web-based software requirements.</p>
+            <img src="assets/images/aboutmain.jpg" alt="about" class="w-100 wow fadeInUp" id="hoverkro">
+            <section class="oleez-about-features">
+                <div class="row">
+                    <div class="col-md-4 mb-5 mb-md-0 feature-card wow fadeInUp">
+                        <h5 class="feature-card-title">Story</h4>
+                        <p class="feature-card-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, </p>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0 feature-card wow fadeInUp">
+                        <h5 class="feature-card-title">Mission</h4>
+                        <p class="feature-card-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, </p>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0 feature-card wow fadeInUp">
+                        <h5 class="feature-card-title">Value</h4>
+                        <p class="feature-card-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, </p>
+                    </div>
+                </div>
+            </section>
+            <section class="oleez-what-we-do">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h2 class="section-title wow fadeInUp">What we do</h2>
+                        <h4 class="section-subtitle wow fadeInUp">We design thoughtful digital experiences & beautiful brand aesthetics.</h4>
+                        <div class="row">
+                            <div class="col-md-4 mb-5 mb-md-0 wow fadeInUp">
+                                <h5 class="what-we-do-list-title">Development</h5>
+                                <ul class="what-we-do-list">
+                                    <li>Web Applications</li>
+                                    <li>Android Applications</li>
+                                    <li>IOS Applications</li>
+                                    <li>Web Applications</li>
+                                    <li>Databases</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 mb-5 mb-md-0 wow fadeInUp">
+                                <h5 class="what-we-do-list-title">Design</h5>
+                                <ul class="what-we-do-list">
+                                    <li>Website Design</li>
+                                    <li>Apps</li>
+                                    <li>UI/UX</li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 mb-5 mb-md-0 wow fadeInUp">
+                                <h5 class="what-we-do-list-title">Technologies</h5>
+                                <ul class="what-we-do-list">
+                                    <li>Python</li>
+                                    <li>Flutter</li>
+                                    <li>Django</li>
+                                    <li>Java Script</li>
+                                    <li>C/C++</li>
+                                    <li>HTML/CSS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="oleez-about-work-with-us wow fadeInUp">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h2 class="section-title">We design thoughtful digital experiences & beautiful brand aesthetics.</h2>
+                        <p class="section-subtitle">Would you like us to <a href="#!">work</a>  on your brand identity? We would be happy to <a href="#!">help</a>.</p>
+                        <a href="#!" class="btn work-with-us-btn">Work with us</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section class="oleez-landing-section oleez-landing-section-team">
+        <div class="container">
+            <div class="oleez-landing-section-content">
+                <!-- <div class="oleez-landing-section-verticals wow fadeIn">
+                    <span class="number">03</span> <img src="assets/images/Logo_2.svg" alt="ollez" height="12px">
+                </div> -->
+                <div class="row landing-team-content wow fadeInUp">
+                    <div class="col-md-6">
+                        <h2 class="section-title">Team</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis delectus dolorem possimus, dolor rerum.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                        <img src="assets/images/About/team01.jpg" alt="Team Member" class="team-card-img" style="height:220px;">
+                        <h5 class="team-card-name">Mr. Ankit Gupta</h5>
+                        <p class="team-card-job">Development</p>
+                        <nav class="team-card-social-links">
+                            <a href="https://www.linkedin.com/in/ankitgupta27/" class="fa fa-linkedin" target="_blank"></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                        <img src="assets/images/About/team05.png" alt="Team Member" class="team-card-img" style="height:220px;">
+                        <h5 class="team-card-name">Mr. Sachin</h5>
+                        <p class="team-card-job">Full Stack Developer</p>
+                        <nav class="team-card-social-links">
+                        <a href="https://www.linkedin.com/in/sachin-bhoi/" class="fa fa-linkedin" target="_blank"></a>
+                        </nav>
+                </div>
+                    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                            <img src="assets/images/About/team02.png" alt="Team Member" class="team-card-img" style="height:220px;">
+                            <h5 class="team-card-name">Mr. Ankush Koli</h5>
+                            <p class="team-card-job">UI/UX</p>
+                            <nav class="team-card-social-links">
+                                <a href="https://www.linkedin.com/in/ankush-koli-0a500a178/" class="fa fa-linkedin" target="_blank"></a>
+                            </nav>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                        <img src="assets/images/About/team03.jpg" alt="Team Member" class="team-card-img" style="height:220px;">
+                        <h5 class="team-card-name">Mr. Pankaj Palariya</h5>
+                        <p class="team-card-job">Backend Developer</p>
+                        <nav class="team-card-social-links">
+                        <a href="https://www.linkedin.com/in/pankaj-palariya-7833b5165/" class="fa fa-linkedin" target="_blank"></a>
+                        </nav>
+                </div>
+                    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                        <img src="assets/images/About/team04.jpg" alt="Team Member" class="team-card-img" style="height:220px;">
+                        <h5 class="team-card-name">Mr. Akash Gupta</h5>
+                        <p class="team-card-job">App Developer(Cross-Platform)</p>
+                        <nav class="team-card-social-links">
+                        <a href="https://www.linkedin.com/in/akash-gupta-786567192/" class="fa fa-linkedin" target="_blank"></a>
+                        </nav>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+                    <img src="assets/images/About/team06.jpg" alt="Team Member" class="team-card-img" style="height:220px;">
+                    <h5 class="team-card-name">Mr. Ahan</h5>
+                    <p class="team-card-job">ML & Cross-Platform App</p>
+                    <nav class="team-card-social-links">
+                        <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                    </nav>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="oleez-footer wow fadeInUp">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--<img src="assets/images/Logo_1.svg" alt="oleez" class="footer-logo">-->
+                        <h2>HexaPaul</h2>
+                        <p class="footer-intro-text">Don't be shy, get in touch with us and create the world again!</p>
+                        <nav class="footer-social-links">
+                            <a href="https://www.facebook.com/Hexapaul-107343571804291/" class="fa fa-facebook" target="_blank"></a>
+                            <a href="https://twitter.com/HexaPaul" class="fa fa-twitter" target="_blank"></a>
+                            <a href="https://www.linkedin.com/company/hexapaul/" class="fa fa-linkedin" target="_blank"></a>
+                            <a href="https://www.instagram.com/hexapaul.social/" class="fa fa-instagram" target="_blank"></a>
+                        </nav>
+                        <h3>Meet Our Partners</h3>
+                        <div>
+                            <a href="https://www.xilirprojects.com/" target="_blank"><img src="assets/images/footerpartners1.png" style="width: 75px;margin-top: 5px;margin-left: 75px;"></a>
+                        </div>
+                            <div>
+                                <a href="https://www.funcinfo.com/" target="_blank"><img src="assets/images/footerpartners2.png" style="width: 100px;margin-top: 20px;margin-left: 55px;"></a>
+                            </div>
+                            
+                            <div>
+                                <a href="https://spaceorion.com/" target="_blank"><img src="assets/images/footerpartners3.png" style="width: 100px;margin-top: 20px;margin-left: 5px;"></a>
+                                <a href="https://genorion.com/" target="_blank"><img src="assets/images/footerpartners4.gif" style="width: 150px;margin-top: 20px;"></a>
+                            </div>
+                        </div>
+
+                    
+                    <div class="col-md-6">
+                        <div class="row">
+
+                            <div class="col-md-6 footer-widget-text S1" style="margin-left: -95px;margin-right: 15%;">
+                                <h6 class="widget-title">Services</h6>
+                                <p class="widget-content">Website Development</p>
+                                <p class="widget-content">Cross-Platform Mobile Applications</p>
+                                <p class="widget-content">Windows, Mac & Linux Applications</p>
+                                <p class="widget-content">Web App Development</p>
+                                <p class="widget-content">AI, ML, Data Analytics & Data Science</p>
+                                    <p class="widget-content">UI UX Design</p>
+                                    <p class="widget-content">Software as a Services</p>
+                                    <p class="widget-content">Infrastructure Services</p>
+                                    <p class="widget-content">Infrastructure Services</p>
+                                    <p class="widget-content">E-commerce</p>
+                            </div>
+
+
+                            <div class="col-md-6 footer-widget-text">
+                                <h6 class="widget-title">ADDRESS</h6>
+                                <p class="widget-content">
+
+                                    <b>Delhi Address: </b>593, 3rd Floor, <br>Dwarka mor,<br>
+                                    
+                                    opp. - Metro pillar-803,<br>
+                                    
+                                    New Delhi - 110078,<br>
+                                    
+                                    India <br><br>
+                                    <b>Mumbai Address: </b>Swami samarth bungalow, near bus stand Shahapur,<br>
+                                    
+                                    thane, <br>
+                                    
+                                    Maharashtra - 421601, <br>
+                                    
+                                    India <br><br>
+
+                                    <b>UK Address: </b>19, Heald Place,<br>
+                                    
+                                    Greater Manchester - M144AT,<br>
+                                    
+                                    United Kingdom <br>
+
+                            </div>
+
+
+                            <div class="col-md-6 footer-widget-text S1" style="margin-left: -95px; margin-right: 15%;">
+                                <h6 class="widget-title">PHONE</h6>
+                            
+                                <p class="widget-content"><b>India</b> +91-9911757588</p>
+                                <p class="widget-content"><b>India</b> +91-9716683984</p>
+                                <p class="widget-content"><b>UK</b> +44-7587583357</p>
+
+                                <h6 class="widget-title">ENQUIRUES</h6>
+                                <p class="widget-content">contact@genorion.com</p>
+                            </div>
+
+                            <div class="col-md-6 footer-widget-text">
+                                <h6 class="widget-title">WORK HOURS</h6>
+                                <table class="opening-hours-table">
+                                    <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                                        <td>Monday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                                        <td>Tuesday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                                        <td>Wednesday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                                        <td>Thursday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                                        <td>Friday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                                        <td>Saturday</td>
+                                        <td class="opens">11:00</td>
+                                        <td>-</td>
+                                        <td class="closes">19:00</td>
+                                    </tr>
+                                    <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                                        <td>Sunday</td>
+                                        <td class="opens">11:00</td>
+                                        <td>-</td>
+                                        <td class="closes">19:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text">
+                <p class="mb-md-0">
+                    COPYRIGHT © 2021 SPACESTATION AUTOMATION PVT. LTD. - ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/vendors/popper.js/popper.min.js"></script>
+<script src="assets/vendors/wowjs/wow.min.js"></script>
+<script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/vendors/slick-carousel/slick.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/opninghours.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>

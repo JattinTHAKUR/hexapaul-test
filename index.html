@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HP::Home</title>
+    <link rel="stylesheet" href="./assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick.css">
+    <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/_landing.css">
+    <link rel="stylesheet" href="assets/css/_footer.css">
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+
+    <style>
+   
+    </style>
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    
+    <div class="oleez-loader"></div>
+    <header class="oleez-header">
+        <nav class="navbar navbar-expand-lg navbar-light" style="position: fixed;left: 0;top: 0;right: 0;z-index: 1080;background: rgba(209, 204, 204, 0.7);backdrop-filter: blur(20px);height: 55px;">
+            <a class="navbar-brand" href="index.html"><!--<img src="assets/images/Logo_2.svg" alt="Oleez">--> HexaPaul</a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#oleezMainNav"
+                aria-controls="oleezMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="oleezMainNav">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#!" id="pagesDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pricing</a>
+                        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                            <a class="dropdown-item" href="pricing1.html">Basic</a>
+                            <a class="dropdown-item" href="pricing2.html">Gold</a>
+                            <a class="dropdown-item" href="pricing3.html">Primium</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+                <!-- <ul class="navbar-nav d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-btn" href="#!" data-toggle="searchModal">
+                            <img src="assets/images/search.svg" alt="search">
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-cart">
+                        <a class="nav-link nav-link-btn" href="#!">
+                            <span class="cart-item-count">0</span>
+                            <img src="assets/images/shopping-cart.svg" alt="cart">
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#!" id="languageDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">ENG</a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <a class="dropdown-item" href="#!">ARB</a>
+                            <a class="dropdown-item" href="#!">FRE</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a class="nav-link pr-0 nav-link-btn" href="#!" data-toggle="offCanvasMenu">
+                            <img src="assets/images/social icon@2x.svg" alt="social-nav-toggle">
+                        </a>
+                    </li>
+                </ul> -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section style="background-color: aliceblue;">
+            <div class="container wow fadeIn">
+                <div id="oleezLandingCarousel" class="oleez-landing-carousel carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="assets/images/homemain.jpg" alt="First slide" class="w-100">
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight"><span>HexaPaul</span></h2>
+                                <h2 data-animation="animated fadeInRight" style="color: black;background-color: #f7b631;font-size: 18px;"><span>You initiate, we will build and support</span></h2>
+                                <a href="#projs" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/homemain.jpg" alt="Second slide" class="w-100">
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight"><span>HexaPaul</span></h2>
+                                <p data-animation="animated fadeInRight" style="color: black;"><span>"You initiate, we will build and support"</span></p>
+                                <a href="#projs" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/homemain.jpg" alt="Third slide" class="w-100">
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight"><span>HexaPaul</span></h2>
+                                <p data-animation="animated fadeInRight" style="color: black;"><span>"You initiate, we will build and support"</span></p>
+                                <a href="#projs" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/homemain.jpg" alt="Fourth slide" class="w-100">
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight"><span>HexaPaul</span></h2>
+                                <p data-animation="animated fadeInRight" style="color: black;"><span>"You initiate, we will build and support"</span></p>
+                                <a href="#projs" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-navbtn-wrapper"></div>            
+            </div>
+        </section>
+
+    
+        <!-- What we do?  -->
+
+        <section class="oleez-landing-section oleez-landing-section-about" style="background-color: aliceblue;">
+            <div class="container">
+                <div class="oleez-landing-section-content">
+                    <div class="row landing-about-content wow fadeInUp">
+                        <div class="col-md-6">
+                            <h2>What we do?</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <p>We provide a paramount software solution for our customers. With our experienced team of developers capable of learning quickly and implementing their knowledge seamlessly integrating it to your organization as well as providing support for any future upgrades.
+                                Our approach is different we look beyond the traditional solutions, and focus on smart technology with 6 sigma product development environment, enhance the quality of our final product.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 landing-about-feature wow fadeInUp">
+                            <img src="assets/images/in-WD.png" alt="document" class="about-feature-icon" style="height: 110px;">
+                            <h5 class="about-feature-title">Web Developement</h5>
+                            <p class="about-feature-description">As an IT company, we pay unhindered attention to both visible and non-visible parts. Having strong skills in HTML, CSS, and JavaScript, Our team can create amazing front-end in Java, PHP, .NET, Python, and other technologies to build a reliable and flexible backend.</p>
+                        </div>
+                        <div class="col-md-4 landing-about-feature wow fadeInUp">
+                            <img src="assets/images/in-AD.png" alt="document" class="about-feature-icon" style="height: 110px;">
+                            <h5 class="about-feature-title">App Developement</h5>
+                            <p class="about-feature-description">We design, build, support, and develop all types of software for android, iOS, and various operating systems. With the help of our industry expertise, we provide the best application experience across multiple channels to the end-user.</p>
+                        </div>
+                        <div class="col-md-4 landing-about-feature wow fadeInUp">
+                            <img src="assets/images/in-DB.png" alt="document" class="about-feature-icon" style="height: 110px;">
+                            <h5 class="about-feature-title">Database</h5>
+                            <p class="about-feature-description">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="oleez-landing-section oleez-landing-section-client" style="background-color: aliceblue;">
+            <div class="container">
+                <div class="oleez-landing-section-content">
+                    <h2 class="section-title mb-1 wow fadeInUp">Technologies we use</h2>
+                    <p class="client-section-subtitle">We’re constantly refining our product. Adding new features. Working to help your business grow.</p>
+                    <div class="row">
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-python.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-django.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-aws.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-unity.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-flutter.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-js.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-nodeJS.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-postgresql.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-react.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-blender.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-figma.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4 client-logo-wrapper wow flipInX">
+                            <div class="client-logo" style="border: 0px solid #f1e2c2;">
+                                <img src="assets/images/in-vue.png" alt="client" style="height:100px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+<!-- Projects section -->
+       
+        <section class="oleez-landing-section oleez-landing-section-news" style="background-color: aliceblue;">
+            <div class="container">
+                <div class="oleez-landing-section-content">
+                    <h2 class="section-title wow fadeInUp">Projects</h2>
+                    <p class="news-section-subtitle wow fadeInUp">Share your stories and news with everyone.</p>
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="news-card news-card-1 wow fadeInUp">
+                                <div class="card-body">
+                                    <div class="author-info media">
+                                        <img src="assets/images/Team_1_Copy_2@2x.jpg" alt="author" class="author-avatar">
+                                        <div class="media-body">
+                                            <h6 class="author-name">Posted by Colabrio</h6>
+                                            <p class="news-post-date">July 5, 2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-category">Digital Strategy</span> 4 min read
+                                    </div>
+                                    <h5 class="post-title">The Ultimate Guide to Make Your WordPress Journal.</h5>
+                                    <a href="#!" class="post-permalink" id="myBtn">Read more </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="news-card news-card-2 wow fadeInUp">
+                                <div class="card-body">
+                                    <div class="author-info media">
+                                        <img src="assets/images/Team_2_Copy_2@2x.jpg" alt="author" class="author-avatar">
+                                        <div class="media-body">
+                                            <h6 class="author-name">Posted by Stormie</h6>
+                                            <p class="news-post-date">July 5, 2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-category">Personal</span> 4 min read
+                                    </div>
+                                    <h5 class="post-title">The Highly Contemporary UI/UX Design from a london.</h5>
+                                    <a href="#!" class="post-permalink"id="myBtn2">Read more </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="news-card news-card-3 wow fadeInUp">
+                                <div class="card-body">
+                                    <div class="author-info media">
+                                        <img src="assets/images/Team_3_Copy_2@2x.jpg" alt="author" class="author-avatar">
+                                        <div class="media-body">
+                                            <h6 class="author-name">Posted by Angela</h6>
+                                            <p class="news-post-date">July 5, 2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="post-category">Personal</span> 4 min read
+                                    </div>
+                                    <h5 class="post-title">A Color Exercise for our Brand’s Illustration </h5>
+                                    <a href="#!" class="post-permalink" id="myBtn3">Read more </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <!-- <div class="modal-header"> -->
+      <span class="close">&times;</span>
+      <!-- <h2>Modal Header</h2>
+    </div> -->
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+  </div>
+
+</div>
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+
+  <!-- Modal content -->
+  <div class="modal2-content">
+    <!-- <div class="modal-header"> -->
+      <span class="close2">&times;</span>
+      <!-- <h2>Modal Header</h2>
+    </div> -->
+    <div class="modal2-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+  </div>
+
+</div>
+
+<!-- portfolio images -->
+<section>
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+    <body>
+    
+    <!-- Header -->
+    <div class="header">
+      <h1>Responsive Image Grid</h1>
+      <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+    
+    <!-- Photo Grid -->
+    <div class="scrollblock">
+        <div class="container-fluid pt-10">
+           <div class="row justify-content-md-center ">
+              <div class="col-md-10 col-sm-12">
+                 <div class="card-columns">
+                    <div class="card card-hover h-100" >
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p> Curabitur non nulla</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100" >
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Vivamus magna convallis</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Lacinia eget consectetur</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Convallis a pellentesque</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Egestas non nisi</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Vivamus magna convallis</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Eget malesuada lacinia</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Donec rutrum congue</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="card card-hover h-100">
+                       <div class="card-body">
+                          <a href="index.html">
+                             <img class="card-img-top" src="assets/images/1234.png" alt="Card image cap">
+                             <div class="reveal h-100 p-2 d-flex ">
+                                <div class="w-100 align-self-center">
+                                   <p>Magna eget rutrum</p>
+                                </div>
+                             </div>
+                          </a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </section>
+
+    <!-- client section -->
+
+        <section class="oleez-landing-section oleez-landing-section-testimonials" style="background-color: aliceblue;">
+            <div class="container">
+                <div class="oleez-landing-section-content">
+                    <div class="d-md-flex justify-content-between wow fadeInUp">
+                        <div class="testimonial-section-content">
+                            <h2 class="section-title">What our clients say</h2>
+                            <p class="section-subtitle">Share your stories and news with everyone.</p>
+                        </div>
+                        <div class="testimonial-carousel-navbtn-wrapper"></div>
+                    </div>
+                    <div class="landing-testimonial-carousel wow fadeInUp">
+                        <div class="landing-testimonial-card">
+                            <div class="media">
+                                <img src="assets/images/Client_1@2x.jpg" alt="client" class="testimonial-card-img">
+                                <div class="media-body">
+                                    <p class="testimonial-card-content">
+                                        The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.
+                                    </p>
+                                    <h6 class="testimonial-card-name">Winnie Warner</h6>
+                                    <p class="testimonial-card-company">Creative Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="landing-testimonial-card">
+                            <div class="media">
+                                <img src="assets/images/Client_2@2x.jpg" alt="client" class="testimonial-card-img">
+                                <div class="media-body">
+                                    <p class="testimonial-card-content">
+                                        The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.
+                                    </p>
+                                    <h6 class="testimonial-card-name">Wesley Ford</h6>
+                                    <p class="testimonial-card-company">Creative Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="landing-testimonial-card">
+                            <div class="media">
+                                <img src="assets/images/Client_3@2x.jpg" alt="client" class="testimonial-card-img">
+                                <div class="media-body">
+                                    <p class="testimonial-card-content">
+                                        The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.
+                                    </p>
+                                    <h6 class="testimonial-card-name">Winnie Warner</h6>
+                                    <p class="testimonial-card-company">Creative Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="landing-testimonial-card">
+                            <div class="media">
+                                <img src="assets/images/Client_4@2x.jpg" alt="client" class="testimonial-card-img">
+                                <div class="media-body">
+                                    <p class="testimonial-card-content">
+                                        The revulsion in our feelings was therefore all the greater when the car suddenly escaped from this height of desolation, and a magnificent prospect burst upon our view.
+                                    </p>
+                                    <h6 class="testimonial-card-name">Wesley Ford</h6>
+                                    <p class="testimonial-card-company">Creative Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="oleez-footer wow fadeInUp">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--<img src="assets/images/Logo_1.svg" alt="oleez" class="footer-logo">-->
+                        <h2>HexaPaul</h2>
+                        <p class="footer-intro-text">Don't be shy, get in touch with us and create the world again!</p>
+                        <nav class="footer-social-links">
+                            <a href="https://www.facebook.com/Hexapaul-107343571804291/" class="fa fa-facebook" target="_blank"></a>
+                            <a href="https://twitter.com/HexaPaul" class="fa fa-twitter" target="_blank"></a>
+                            <a href="https://www.linkedin.com/company/hexapaul/" class="fa fa-linkedin" target="_blank"></a>
+                            <a href="https://www.instagram.com/hexapaul.social/" class="fa fa-instagram" target="_blank"></a>
+                        </nav>
+                        <h3>Meet Our Partners</h3>
+                        <div>
+                        <a href="https://www.xilirprojects.com/" target="_blank"><img src="assets/images/footerpartners1.png" style="width: 75px;margin-top: 5px;margin-left: 75px;"></a>
+                    </div>
+                        <div>
+                            <a href="https://www.funcinfo.com/" target="_blank"><img src="assets/images/footerpartners2.png" style="width: 100px;margin-top: 20px;margin-left: 55px;"></a>
+                        </div>
+                        
+                        <div>
+                            <a href="https://spaceorion.com/" target="_blank"><img src="assets/images/footerpartners3.png" style="width: 100px;margin-top: 20px;margin-left: 5px;"></a>
+                            <a href="https://genorion.com/" target="_blank"><img src="assets/images/footerpartners4.gif" style="width: 150px;margin-top: 20px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+
+                            <div class="col-md-6 footer-widget-text S1">
+                                <h6 class="widget-title">Services</h6>
+                                <p class="widget-content">Website Development</p>
+                                <p class="widget-content">Cross-Platform Mobile Applications</p>
+                                <p class="widget-content">Windows, Mac & Linux Applications</p>
+                                <p class="widget-content">Web App Development</p>
+                                <p class="widget-content">AI, ML, Data Analytics & Data Science</p>
+                                    <p class="widget-content">UI UX Design</p>
+                                    <p class="widget-content">Software as a Services</p>
+                                    <p class="widget-content">Infrastructure Services</p>
+                                    <p class="widget-content">Infrastructure Services</p>
+                                    <p class="widget-content">E-commerce</p>
+                            </div>
+
+
+                            <div class="col-md-6 footer-widget-text">
+                                <h6 class="widget-title">ADDRESS</h6>
+                                <p class="widget-content">
+
+                                    <b>Delhi Address: </b>593, 3rd Floor, <br>Dwarka mor,<br>
+                                    
+                                    opp. - Metro pillar-803,<br>
+                                    
+                                    New Delhi - 110078,<br>
+                                    
+                                    India <br><br>
+                                    <b>Mumbai Address: </b>Swami samarth bungalow, near bus stand Shahapur,<br>
+                                    
+                                    thane, <br>
+                                    
+                                    Maharashtra - 421601, <br>
+                                    
+                                    India <br><br>
+
+                                    <b>UK Address: </b>19, Heald Place,<br>
+                                    
+                                    Greater Manchester - M144AT,<br>
+                                    
+                                    United Kingdom <br>
+
+                            </div>
+
+
+                            <div class="col-md-6 footer-widget-text S1">
+                                <h6 class="widget-title">PHONE</h6>
+                            
+                                <p class="widget-content"><b>India</b> +91-9911757588</p>
+                                <p class="widget-content"><b>India</b> +91-9716683984</p>
+                                <p class="widget-content"><b>UK</b> +44-7587583357</p>
+
+                                <h6 class="widget-title">ENQUIRUES</h6>
+                                <p class="widget-content">contact@genorion.com</p>
+                            </div>
+
+                            <div class="col-md-6 footer-widget-text">
+                                <h6 class="widget-title">WORK HOURS</h6>
+                                <table class="opening-hours-table">
+                                    <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                                        <td>Monday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                                        <td>Tuesday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                                        <td>Wednesday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                                        <td>Thursday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                                        <td>Friday</td>
+                                        <td class="opens">10:00</td>
+                                        <td>-</td>
+                                        <td class="closes">18:00</td>
+                                    </tr>
+                                    <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                                        <td>Saturday</td>
+                                        <td class="opens">11:00</td>
+                                        <td>-</td>
+                                        <td class="closes">19:00</td>
+                                    </tr>
+                                    <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                                        <td>Sunday</td>
+                                        <td class="opens">11:00</td>
+                                        <td>-</td>
+                                        <td class="closes">19:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text">
+                <p class="mb-md-0">
+                    COPYRIGHT © 2021 SPACESTATION AUTOMATION PVT. LTD. - ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Off canvas social menu -->
+    <!-- <nav id="offCanvasMenu" class="off-canvas-menu">
+        <button type="button" class="close" aria-label="Close" data-dismiss="offCanvasMenu">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="oleez-social-menu">
+            <li>
+                <a href="#!" class="oleez-social-menu-link">Facebook</a>
+            </li>
+            <li>
+                <a href="#!" class="oleez-social-menu-link">Instagram</a>
+            </li>
+            <li>
+                <a href="#!" class="oleez-social-menu-link">Behance</a>
+            </li>
+            <li>
+                <a href="#!" class="oleez-social-menu-link">Dribbble</a>
+            </li>
+            <li>
+                <a href="#!" class="oleez-social-menu-link">Email</a>
+            </li>
+        </ul>
+    </nav> -->
+    <!-- Full screen search box -->
+    <!-- <div id="searchModal" class="search-modal">
+        <button type="button" class="close" aria-label="Close" data-dismiss="searchModal">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <form action="index.html" method="get" class="oleez-overlay-search-form">
+            <label for="search" class="sr-only">Search</label>
+            <input type="search" class="oleez-overlay-search-input" id="search" name="search" placeholder="Search here">
+        </form>
+    </div> -->
+
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/wowjs/wow.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick-carousel/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/opninghours.js"></script>
+    <script src="assets/js/landing.js"></script>
+    <script>
+        new WOW({mobile: false}).init();
+    </script>
+    <script>
+        (function(e, t, n, r) {
+            if (e) return;
+            t._appt = true;
+            var i = n.createElement(r),
+                s = n.getElementsByTagName(r)[0];
+            i.async = true;
+            i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+            s.parentNode.insertBefore(i, s)
+        })(window._appt, window, document, "script")
+
+        // 
+        // 
+        // cursor
+        // 
+        // 
+        const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+       
+    </script>
+</body>
+
+
+</html>

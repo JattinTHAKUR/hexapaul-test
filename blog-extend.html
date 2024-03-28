@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP::Blog</title>
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css">  -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link href="assets/css/blog/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/blog/templatemo-xtra-blog.css" rel="stylesheet">
+    <!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <h1 class="text-center">Blog</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">
+                <ul>
+                    <li class="tm-nav-item active"><a href="blog.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            All Blogs
+                        </a></li>
+                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a></li>
+                    <li class="tm-nav-item"><a href="portfolio.html" class="tm-nav-link">
+                            <i class="fas fa-pen"></i>
+                            Portfolio
+                        </a></li>
+                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
+                            <i class="fas fa-users"></i>
+                            About
+                        </a></li>
+                    <li class="tm-nav-item"><a href="pricing1.html" class="tm-nav-link">
+                            <i class="far fa-comments"></i>
+                            Pricing
+                        </a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <div class="row tm-row">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <!-- Video player 1422x800 -->
+                    <img src="assets/images/Blogstandard/blog1.jpeg" style="width:800px;height:335px" controls
+                        class="tm-mb-40">
+                </div>
+            </div>
+            <div class="row tm-row">
+                <div class="col-lg-8 tm-post-col">
+                    <div class="tm-post-full">
+                        <div class="mb-4">
+                            <h2 class="pt-2 tm-color-primary tm-post-title">GUI for python programs with multiple
+                                windows</h2>
+                            <p class="tm-mb-40">Easy to implement GUI framework using python Tkinter library for your
+                                python programs</p>
+                            <p>
+                                While I was trying to make a GUI for my application, I had many options/projects. Which
+                                necessitated me to design a multi-page menu that can hold all pages together and display
+                                the appropriate page without retaining the previous page. I discovered that it is easy
+                                to make a single page GUI but difficult to find a framework for a multipage menu.
+                                Therefore, I created this tutorial which can be a good framework for your python
+                                application. The framework of the GUI runs on Python 2 can be easily converted to python
+                                3 with minor changes. The code can be customized according to the needs of your
+                                application.
+                                This tutorial will be broken down in the following steps:
+                            <ul>
+                                <li>Tkinter</li>
+                                <li>Multi-window GUI</li>
+                                <li>Making a single executable file</li>
+                            </ul>
+                            </p>
+
+                            <!-- Comments -->
+                            <div>
+                                <h2 class="tm-color-primary tm-post-title">More About</h2>
+                                <hr class="tm-hr-primary tm-mb-45">
+                                <h2 class="pt-2 tm-color-primary tm-post-title">Tkinter</h2>
+                                <div class="tm-comment tm-mb-45">
+                                    <div>
+                                        <p>
+                                            I have been searching for a simple GUI for python application and discovered
+                                            that Tkinter and PyQt are widely used GUI for python.
+                                            Nevertheless, Tkinter was easy to install in python as it is a standard
+                                            library in Python.
+                                            Python with Tkinter is the fastest and easiest way to create GUI
+                                            applications.
+                                            PyQt was difficult to install, especially on python 2, therefore I preferred
+                                            Tkinter. The documentation for the library can be found here.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tm-comment-reply tm-mb-45">
+                                    <hr>
+                                    <h2 class="pt-2 tm-color-primary tm-post-title">Multi-window GUI</h2>
+                                    <div class="tm-comment">
+                                        <p>
+                                            For designing a multi-window GUI in Tkinter, we will first need a container
+                                            that can hold all the pages together.
+                                            In the PageContainer class, we can customize the format of the page. For
+                                            example, the geometry of the page, the logo to display, etc.
+                                            An empty dictionary is created for frames and we can start the application
+                                            by initializing a StartPage.
+                                            The tkraise function is used to display a new page on top of the previous
+                                            page.
+                                        </p>
+                                    </div>
+
+                                    <hr class="tm-hr-primary tm-mb-55">
+
+                                    <div class="tm-comment">
+                                        <p>
+                                            The start page act as the primary page to all other sub-pages.
+                                            It contains all the selectable projects/pages in the options menu which
+                                            calls the sub-pages.
+                                            The page can be customized by changing the font style and size, width and
+                                            height of the buttons, title of the page, padding of elements in x and y
+                                            direction, etc.
+                                            These buttons are packed inside the mainframe of the menu.
+                                        </p>
+                                    </div>
+                                    <img src="assets/images/Blogstandard/blog3.png" style="width:800px;height:515px"
+                                        controls class="tm-mb-40">
+                                    <img src="assets/images/Blogstandard/blog6.png" style="width:320px;height:335px"
+                                        controls class="tm-mb-40">
+                                    <div class="tm-comment">
+                                        <p>
+                                            Similar, to the Start Page, the sub-pages have a similar format.
+                                            Nevertheless,
+                                            when a button is pressed on the sub-page, it calls a function instead of a
+                                            page.
+                                            The bottom-most button is used to navigate to the main page.
+                                        </p>
+                                    </div>
+                                    <img src="assets/images/Blogstandard/blog4.png" style="width:800px;height:515px"
+                                        controls class="tm-mb-40">
+                                    <img src="assets/images/Blogstandard/blog7.png" style="width:320px;height:335px"
+                                        controls class="tm-mb-40">
+                                    <div class="tm-comment">
+                                        <p>
+                                            Each button on the subpage can be customized to call a specific function.
+                                            These buttons can also be used to take the user input as a parameter and
+                                            pass it as an argument to the desire function.
+                                            Moreover, a message box can be displayed to show a warning or instruction to
+                                            the user.
+                                        </p>
+                                    </div>
+                                    <img src="assets/images/Blogstandard/blog5.png" style="width:800px;height:515px"
+                                        controls class="tm-mb-40">
+                                    <img src="assets/images/Blogstandard/blog8.png" style="width:800px;height:180px"
+                                        controls class="tm-mb-40">
+                                    <div class="tm-comment">
+                                        <p>
+                                            As you can see from the above example, it is fairly simple to take input
+                                            from the users and pop-up message window to the user.
+                                            It is better to take only one input from the user by pressing a button
+                                            press.
+                                            Nonetheless, sometimes you don’t wanna clutter the menu with too many
+                                            buttons (Project 1 menu).
+                                            Therefore, in the above case, the “data load” button calls
+                                            data_load_all_proj function, which takes multiple inputs from the user.
+                                            These inputs can be passed to function (master_data) as an argument.
+                                        </p>
+                                    </div>
+                                    <div class="row tm-row">
+                                        <div class="col-lg-8 tm-post-col">
+                                            <div class="tm-post-full">
+                                                <div class="mb-4">
+                                                    <h2 class="pt-2 tm-color-primary tm-post-title">Making a single
+                                                        executable file</h2>
+                                                    <p>
+                                                        To add further convenience to the user, all the python
+                                                        executable files can be easily converted into a single
+                                                        executable (.exe) file to run on windows.
+                                                        This will convert your entire python program into a
+                                                        user-friendly GUI application.
+                                                        Simply browse to the folder containing the main python
+                                                        executable file and run the following command on your main
+                                                        python file.
+                                                    </p>
+                                                    <img src="assets/images/Blogstandard/blog9.gif"
+                                                        style="width:800px;height:420px" controls class="tm-mb-40">
+        </main>
+    </div>
+    <script src="assets/js/blog/jquery.min.js"></script>
+    <script src="assets/js/blog/templatemo-script.js"></script>
+</body>
+
+</html>
